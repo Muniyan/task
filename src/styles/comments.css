@@ -1,0 +1,51 @@
+.Comments-container {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  display: block;
+  background-color: #fff;
+}
+
+.Comments-textarea {
+  width: 80%;
+  padding: 11px;
+  outline: none;
+  display: block;
+  font-size: 13px;
+  min-height: 100px;
+  border: 1px solid #d6d6d6;
+}
+
+.Comments-add {
+  padding: 10px;
+  max-width: 20%;
+  display: block;
+  cursor: pointer;
+  margin: 20px 0px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid #d6d6d6;
+}
+
+.Comments-history {
+  width: 50%;
+  float: left;
+}
+
+.Comments-history-child {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Comments-history-desc {
+  float: left;
+  max-width: 60%;
+}
+
+.Comments-history-time {
+  float: right;
+  max-width: 30%;
+}

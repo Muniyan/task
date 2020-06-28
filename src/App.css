@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.cpointer {
+  cursor: pointer;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+}
+
+.App-header {
+  width: 100%;
+  z-index: 9999;
+  min-height: 4em;
+  position: fixed;
+  padding: 1em 5em;
+  background-color: #fff;
+}
+
+.App-icon {
+  width: 15px;
+  height: 15px;
+  background-color: #868686;
+  margin: 8.5px 15px 8.5px 0px;
+}
+
+.App-name {
+  color: #737373;
+  line-height: 2em;
+  font-weight: bold;
+}
+
+.App-container {
+  top: 5em;
+  width: 100%;
+  position: relative;
+}
